@@ -1,0 +1,37 @@
+
+*,
+*::after,
+*::before  {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+    background-color: #F5F5DC !important;
+}
+
+.hero {
+  height: 80vh;
+  width: 100vw;
+  position: relative;
+}
+
+.main-image {
+  height: 100%;
+  width: 100%;
+}
+
+.main-text {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.site-block-check li {
+  list-style-type: none; }
